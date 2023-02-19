@@ -859,8 +859,16 @@ body {
 
 .filter-list {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 24px;
+}
+@media screen and (min-width: 768px) {
+  .filter-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 }
 
 .model-btn-nav {
@@ -911,7 +919,7 @@ body {
     margin-right: auto;
   }
   .portfolio-item {
-    flex-basis: calc(100%-24px / 2);
+    flex-basis: calc(100%\2 - 24px);
   }
 }
 
