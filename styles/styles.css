@@ -883,11 +883,21 @@ body {
 /* --------------Portfolio----------------- */
 
 /* Filters */
-
-.filter-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+@media screen and (max-width: 767px) {
+  .filter-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
 }
 
 .model-btn-nav {
