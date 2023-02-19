@@ -94,3 +94,33 @@
   justify-content: space-between;
   gap: 25px;
 } */
+
+ /* Phone screen */
+ 
+  background-image: url(../images/price/bg-img_mob@1x.png);
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .price {
+    background-image: url(../images/price/bg-img_mob@2x.png);
+  }
+}
+@media screen and (min-width: 481px) {
+  .price {
+    background-image: url(../images/price/bg-img_tab@1x.png);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .price {
+      background-image: url(../images/price/bg-img_tab@2x.png);
+    }
+  }
+}
+@media screen and (min-width: 769px) {
+  .price {
+    background-image: url(../images/price/bg-img_desk@1x.png);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .price {
+      background-image: url(../images/price/bg-img_desk@2x.png);
+    }
+  }
+}
