@@ -160,9 +160,18 @@
               <a class="portfolio-link link" href="">
                 <div class="portfolio-thumb">
                   <img
-                    src="./images/work-portfolio/taxi-service.jpg"
+                    srcset="
+                      ./images/work-portfolio/img-1_356.jpg 356w,
+                      ./images/work-portfolio/img-1_360.jpg 360w,
+                      ./images/work-portfolio/img-1_396.jpg 396w,
+                      ./images/work-portfolio/img-1_712.jpg 712w,
+                      ./images/work-portfolio/img-1_720.jpg 720w,
+                      ./images/work-portfolio/img-1_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 356px, (min-width: 768px) 360px, (min-width: 480px) 396px, 100vw"
+                    src="./images/work-portfolio/img-1_356.jpg"
                     alt="Taxi Service"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="portfolio-overlay">
