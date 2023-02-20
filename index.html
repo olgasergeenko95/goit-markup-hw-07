@@ -138,28 +138,53 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="work-section-list list">
             <li class="work-item">
-              <img
-                src="./images/work/work-1.jpg"
-                alt="Analys"
-                width="360"
-                height="300"
-              />
+              <picture
+                ><source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/img-1_desk@1x.webp 1x,
+                    ./images/work/img-1_desk@2x.webp 2x
+                  "
+                  type="image/webp" />
+                <img
+                  src="./images/work/img-1_desk@1x.jpg"
+                  alt="Analys"
+                  width="360"
+                  height="300"
+              /></picture>
             </li>
             <li class="work-item">
-              <img
-                src="./images/work/work-2.jpg"
-                alt="Apps"
-                width="360"
-                height="300"
-              />
+              <picture
+                ><source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/img-2_desk@1x.webp 1x,
+                    ./images/work/img-2_desk@2x.webp 2x
+                  "
+                  type="image/webp" />
+                <img
+                  src="./images/work/img-2_desk@1x.jpg"
+                  alt="Apps"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+              /></picture>
             </li>
             <li class="work-item">
-              <img
-                src="./images/work/work-3.jpg"
-                alt="Web-site"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/img-3_desk@1x.webp 1x,
+                    ./images/work/img-3_desk@2x.webp 2x
+                  "
+                  type="image/webp" />
+                <img
+                  src="./images/work/img-3_desk@1x.jpg"
+                  alt="Web-site"
+                  width="360"
+                  height="300"
+              /></picture>
             </li>
           </ul>
         </div>
