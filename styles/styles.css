@@ -315,16 +315,16 @@ body {
   line-height: 40px;
   color: #404bbf;
 }
-.contact-link.link {
+.contacts-list-mobile .contact-link {
   font-weight: 500;
   font-size: 18px;
 }
 
-.social-list {
+.social-list-mobile {
   display: flex;
   justify-content: space-between;
   margin-right: auto;
-  gap: 25px;
+  gap: 38px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
