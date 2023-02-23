@@ -548,25 +548,25 @@ body {
   gap: 72px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .features-section-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     column-gap: 24px;
     row-gap: 72px;
   }
   .feature-item {
     width: 356px;
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .features-section-list {
     display: flex;
-
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 24px;
@@ -583,7 +583,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 112px;
     margin-bottom: 8px;
     background-color: var(--features-list-icon-background);
