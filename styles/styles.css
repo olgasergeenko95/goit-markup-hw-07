@@ -755,9 +755,10 @@ body {
   align-items: center;
   gap: 72px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-wrapper {
     align-items: flex-start;
+    padding-left: 108px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -933,7 +934,7 @@ body {
     gap: 24px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .filter-list {
     display: flex;
     flex-direction: row;
