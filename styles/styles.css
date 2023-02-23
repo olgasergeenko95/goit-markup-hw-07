@@ -284,10 +284,6 @@ body {
   padding-bottom: 284px;
   margin-bottom: auto;
 }
-.modal-close-btn:hover {
-  background-color: var(--background-btn);
-  fill: var(--icon-fill);
-}
 
 .menu-mobile {
   display: flex;
@@ -315,9 +311,13 @@ body {
 }
 .contact-link.current {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 40px;
   color: #404bbf;
+}
+.contact-link.link {
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .social-list {
