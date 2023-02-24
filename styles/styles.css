@@ -101,7 +101,6 @@ button {
   }
 }
 .conteiner {
-  min-width: 320px;
   max-width: 428px;
   margin-left: auto;
   margin-right: auto;
@@ -319,6 +318,12 @@ body {
   font-weight: 500;
   font-size: 18px;
 }
+@media screen and (min-width: 428px) {
+  .contact-link.current {
+    font-weight: 500;
+    font-size: 36px;
+  }
+}
 
 .social-list-mobile {
   display: flex;
@@ -418,6 +423,7 @@ body {
 /* Order Service section */
 
 .hero {
+  max-width: 1440px;
   padding-top: 112px;
   padding-bottom: 112px;
   margin-left: auto;
@@ -1081,19 +1087,23 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 392px;
-  height: 590px;
+  width: 95%;
+  min-height: 590px;
   padding: 72px 24px 24px 24px;
   background-color: var(--primary-background);
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 428px) {
+  .modal {
+    width: 392px;
+  }
 }
 @media screen and (min-width: 768px) {
   .modal {
     width: 408px;
   }
 }
-
 .modal-close-btn {
   display: flex;
   align-items: center;
